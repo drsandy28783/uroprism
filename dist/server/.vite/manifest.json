@@ -1,0 +1,269 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "F:/Urology MVP/src/styles.css": {
+    "file": "assets/styles-DWOSTmTC.css",
+    "src": "F:/Urology MVP/src/styles.css"
+  },
+  "_RequireRole-COv1paqh.js": {
+    "file": "assets/RequireRole-COv1paqh.js",
+    "name": "RequireRole",
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_card-BB6cUHwn.js",
+      "_router-B_pJZuA3.js"
+    ]
+  },
+  "_badge-DZBtqxX0.js": {
+    "file": "assets/badge-DZBtqxX0.js",
+    "name": "badge",
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_card-BB6cUHwn.js"
+    ]
+  },
+  "_card-BB6cUHwn.js": {
+    "file": "assets/card-BB6cUHwn.js",
+    "name": "card",
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js"
+    ]
+  },
+  "_check-BnSiz0RJ.js": {
+    "file": "assets/check-BnSiz0RJ.js",
+    "name": "check",
+    "imports": [
+      "_card-BB6cUHwn.js"
+    ]
+  },
+  "_labels-B_eNq-T-.js": {
+    "file": "assets/labels-B_eNq-T-.js",
+    "name": "labels"
+  },
+  "_router-B_pJZuA3.js": {
+    "file": "assets/router-B_pJZuA3.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js"
+    ],
+    "dynamicImports": [
+      "src/routes/subscriptions.tsx?tsr-split=component",
+      "src/routes/login.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component",
+      "src/routes/patient.index.tsx?tsr-split=component",
+      "src/routes/doctor.index.tsx?tsr-split=component",
+      "src/routes/patient.education.tsx?tsr-split=component",
+      "src/routes/patient.consent.tsx?tsr-split=component",
+      "src/routes/doctor.audit.tsx?tsr-split=component",
+      "src/routes/doctor.patients.index.tsx?tsr-split=component",
+      "src/routes/doctor.patients.$patientId.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-DWOSTmTC.css"
+    ]
+  },
+  "_server-CTLgJICr.js": {
+    "file": "assets/server-CTLgJICr.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-B_pJZuA3.js",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_shield-check-DxXIqRUp.js": {
+    "file": "assets/shield-check-DxXIqRUp.js",
+    "name": "shield-check",
+    "imports": [
+      "_card-BB6cUHwn.js"
+    ]
+  },
+  "_stethoscope-qJmPo8iA.js": {
+    "file": "assets/stethoscope-qJmPo8iA.js",
+    "name": "stethoscope",
+    "imports": [
+      "_card-BB6cUHwn.js"
+    ]
+  },
+  "_triangle-alert-DRqnAnKj.js": {
+    "file": "assets/triangle-alert-DRqnAnKj.js",
+    "name": "triangle-alert",
+    "imports": [
+      "_card-BB6cUHwn.js"
+    ]
+  },
+  "_worker-entry-qAXfqQa-.js": {
+    "file": "assets/worker-entry-qAXfqQa-.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-CTLgJICr.js"
+    ]
+  },
+  "src/routes/doctor.audit.tsx?tsr-split=component": {
+    "file": "assets/doctor.audit-CYQakOFm.js",
+    "name": "doctor.audit",
+    "src": "src/routes/doctor.audit.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_router-B_pJZuA3.js"
+    ]
+  },
+  "src/routes/doctor.index.tsx?tsr-split=component": {
+    "file": "assets/doctor.index-Hpgzgn3_.js",
+    "name": "doctor.index",
+    "src": "src/routes/doctor.index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_badge-DZBtqxX0.js",
+      "_labels-B_eNq-T-.js",
+      "_stethoscope-qJmPo8iA.js",
+      "_triangle-alert-DRqnAnKj.js"
+    ]
+  },
+  "src/routes/doctor.patients.$patientId.tsx?tsr-split=component": {
+    "file": "assets/doctor.patients._patientId-BeTIS1LW.js",
+    "name": "doctor.patients._patientId",
+    "src": "src/routes/doctor.patients.$patientId.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_badge-DZBtqxX0.js",
+      "_labels-B_eNq-T-.js"
+    ]
+  },
+  "src/routes/doctor.patients.index.tsx?tsr-split=component": {
+    "file": "assets/doctor.patients.index-BytZ50-l.js",
+    "name": "doctor.patients.index",
+    "src": "src/routes/doctor.patients.index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_badge-DZBtqxX0.js",
+      "_labels-B_eNq-T-.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-BIYl0wfj.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_shield-check-DxXIqRUp.js",
+      "_stethoscope-qJmPo8iA.js"
+    ]
+  },
+  "src/routes/login.tsx?tsr-split=component": {
+    "file": "assets/login-BMVQafI2.js",
+    "name": "login",
+    "src": "src/routes/login.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_stethoscope-qJmPo8iA.js"
+    ]
+  },
+  "src/routes/patient.consent.tsx?tsr-split=component": {
+    "file": "assets/patient.consent-ChyuRhhr.js",
+    "name": "patient.consent",
+    "src": "src/routes/patient.consent.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_router-B_pJZuA3.js",
+      "_check-BnSiz0RJ.js"
+    ]
+  },
+  "src/routes/patient.education.tsx?tsr-split=component": {
+    "file": "assets/patient.education-vxOV0zuy.js",
+    "name": "patient.education",
+    "src": "src/routes/patient.education.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_labels-B_eNq-T-.js",
+      "_router-B_pJZuA3.js"
+    ]
+  },
+  "src/routes/patient.index.tsx?tsr-split=component": {
+    "file": "assets/patient.index-CgH9izWM.js",
+    "name": "patient.index",
+    "src": "src/routes/patient.index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_RequireRole-COv1paqh.js",
+      "_badge-DZBtqxX0.js",
+      "_labels-B_eNq-T-.js",
+      "_shield-check-DxXIqRUp.js",
+      "_triangle-alert-DRqnAnKj.js"
+    ]
+  },
+  "src/routes/subscriptions.tsx?tsr-split=component": {
+    "file": "assets/subscriptions-_I5pdufz.js",
+    "name": "subscriptions",
+    "src": "src/routes/subscriptions.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CTLgJICr.js",
+      "_router-B_pJZuA3.js",
+      "_card-BB6cUHwn.js",
+      "_check-BnSiz0RJ.js"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-CwqEP14p.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-qAXfqQa-.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-Ch-adtCs.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-qAXfqQa-.js"
+    ]
+  }
+}
