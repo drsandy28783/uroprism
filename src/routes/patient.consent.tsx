@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { RequireRole } from "@/components/RequireRole";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -32,7 +33,7 @@ function ConsentPage() {
     consentService.get().then(setState);
   }, []);
 
-  if (!state) return <div className="min-h-screen bg-background"><AppHeader /></div>;
+  if (!state) return <div className="min-h-screen bg-background"><AppHeader /><PrototypeBanner /></div>;
 
   const toggle = (key: keyof ConsentState, value: boolean) => {
     setState((s) => (s ? { ...s, [key]: value } : s));
@@ -48,6 +49,7 @@ function ConsentPage() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-8 max-w-2xl space-y-6">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Consent preferences</h1>

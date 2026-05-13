@@ -1,5 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/hooks/useAuth";
@@ -21,6 +22,7 @@ function LoginPage() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="text-3xl font-semibold tracking-tight">Sign in</h1>

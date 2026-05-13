@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
@@ -57,6 +58,7 @@ function Subscriptions() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-12 space-y-10">
         <div className="text-center max-w-2xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">Choose your StoneCare plan</h1>

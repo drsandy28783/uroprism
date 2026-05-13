@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { RequireRole } from "@/components/RequireRole";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -47,6 +48,7 @@ function PatientList() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-8 space-y-6">
         <div className="flex items-end justify-between gap-4 flex-wrap">
           <div>

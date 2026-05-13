@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Activity, CalendarCheck, FlaskConical, HeartPulse, ShieldCheck, Stethoscope } from "lucide-react";
@@ -12,6 +13,7 @@ function Landing() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
 
       {/* Hero */}
       <section className="relative overflow-hidden">

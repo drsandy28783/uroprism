@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { RequireRole } from "@/components/RequireRole";
 import { StatCard } from "@/components/StatCard";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -32,6 +33,7 @@ function DoctorDashboard() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-8 space-y-8">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Doctor dashboard</h1>

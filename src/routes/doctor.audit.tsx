@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { RequireRole } from "@/components/RequireRole";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { auditService } from "@/services/api";
@@ -31,6 +32,7 @@ function AuditPage() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-8 space-y-4">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Audit log</h1>

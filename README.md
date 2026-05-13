@@ -68,8 +68,50 @@ StoneCare is a healthcare application designed to help manage renal stone preven
 ### Build
 
 ```bash
+# Production build
 npm run build
+
+# Preview production build locally
+npm run preview
 ```
+
+**Output**: `dist/server/` (SSR server bundle) + `dist/client/` (static assets)
+
+## Deployment
+
+This is a **Server-Side Rendered (SSR)** application ready for public deployment as a safe prototype.
+
+### Quick Deploy Options
+
+- **Cloudflare Pages** (Recommended): Best for edge computing with TanStack Start
+- **Vercel**: Zero-config deployment with automatic previews
+- **Netlify**: JAMstack-friendly with edge functions
+- **Render**: Traditional Node.js hosting
+
+### Deployment Configuration
+
+```
+Build command:       npm run build
+Output directory:    dist/server
+Node version:        20.x
+```
+
+📖 **See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed step-by-step instructions** for all platforms, including:
+- Platform-specific configuration
+- Custom domain setup
+- Environment variables
+- Troubleshooting guide
+- Cost estimates
+
+### Safe for Public Deployment
+
+✅ This prototype is safe to deploy publicly because:
+- No database (all data is mock/in-memory)
+- No real authentication
+- No file uploads or storage
+- No payment processing
+- Visible warning banner on every page
+- All sensitive features are mocked
 
 ## Project Structure
 
@@ -103,6 +145,14 @@ For testing purposes, use the mock login:
 - Role selection: Doctor, Patient, or Admin
 - No password required (this is intentional for the prototype)
 
+## Documentation
+
+- **README.md** (this file) - Project overview and quick start
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Comprehensive deployment guide for Cloudflare, Vercel, Netlify, and Render
+- **[DEMO_GUIDE.md](./DEMO_GUIDE.md)** - Step-by-step demo scenarios for urologist review
+- **[ARCHITECTURE_REVIEW.md](./ARCHITECTURE_REVIEW.md)** - Detailed technical architecture analysis and production roadmap
+- **[ARCHITECTURE_MAP.md](./ARCHITECTURE_MAP.md)** - Quick reference guide to codebase structure
+
 ## Future Development
 
 See `ARCHITECTURE_REVIEW.md` for detailed plans on implementing:
@@ -113,6 +163,28 @@ See `ARCHITECTURE_REVIEW.md` for detailed plans on implementing:
 - HIPAA/GDPR/DPDP compliance features
 - File upload with virus scanning
 - And more...
+
+## Development Workflow
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Run type checking
+npm run lint
+
+# Format code
+npm run format
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
 
 ## License
 

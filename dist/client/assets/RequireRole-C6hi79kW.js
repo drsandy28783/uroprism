@@ -1,1 +1,0 @@
-import{j as r,N as o}from"./index-_hoXadEQ.js";import{u as i}from"./card-CAWmilop.js";function a({role:e,children:s}){const{user:t}=i();return t?t.role!==e?r.jsx(o,{to:"/login"}):r.jsx(r.Fragment,{children:s}):r.jsx(o,{to:"/login"})}export{a as R};

@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { RequireRole } from "@/components/RequireRole";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -31,6 +32,7 @@ function PatientProfile() {
     return (
       <div className="min-h-screen bg-background">
         <AppHeader />
+        <PrototypeBanner />
         <div className="container mx-auto px-4 py-8 text-muted-foreground">Loading…</div>
       </div>
     );
@@ -39,6 +41,7 @@ function PatientProfile() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-8 space-y-6">
         <Link to="/doctor/patients" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
           <ArrowLeft className="h-4 w-4" /> Back to patients

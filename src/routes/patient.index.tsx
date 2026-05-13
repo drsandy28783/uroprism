@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { RequireRole } from "@/components/RequireRole";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -24,7 +25,7 @@ function PatientDashboard() {
   useEffect(() => {
     patientService.get(currentPatientId).then(setP);
   }, []);
-  if (!p) return <div className="min-h-screen bg-background"><AppHeader /></div>;
+  if (!p) return <div className="min-h-screen bg-background"><AppHeader /><PrototypeBanner /></div>;
 
   const hydrationGoal = 2.5;
   const hydrationPct = Math.min(100, Math.round((p.hydrationLitresPerDay / hydrationGoal) * 100));
@@ -33,6 +34,7 @@ function PatientDashboard() {
   return (
     <div className="min-h-screen bg-background">
       <AppHeader />
+      <PrototypeBanner />
       <main className="container mx-auto px-4 py-8 space-y-6">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Hi {p.name.split(" ")[0]}</h1>
