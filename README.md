@@ -81,6 +81,8 @@ npm run preview
 
 This is a **Server-Side Rendered (SSR)** application ready for public deployment as a safe prototype.
 
+Deployed on Cloudflare Pages.
+
 ### Quick Deploy Options
 
 - **Cloudflare Pages** (Recommended): Best for edge computing with TanStack Start
